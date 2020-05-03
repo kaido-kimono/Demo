@@ -6,7 +6,7 @@ using Android.Widget;
 
 namespace Demo
 {
-    [Activity(Label = "All-Iot", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "All-Iot", Theme = "@style/AppTheme", MainLauncher = false)]
     public class MainActivity : AppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
