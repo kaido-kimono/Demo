@@ -35,33 +35,36 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
-        android:layout_marginTop="30dp"
         android:padding="30dp">
 
         <android.support.design.widget.TextInputLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/phoneNumber">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneNumber"
+            android:layout_marginRight="30.1dp"
+            android:layout_marginLeft="27.0dp">
             <EditText
                 android:inputType="phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Numéro de telephone"
                 />
-            
+
         </android.support.design.widget.TextInputLayout>
 
-         <android.support.design.widget.TextInputLayout
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:id="@+id/passwordText"
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordText"
+            android:layout_marginLeft="28.2dp"
+            android:layout_marginRight="32.0dp"
           >
             <EditText
                 android:inputType="textPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Mot de passe"
-                />            
+                />
         </android.support.design.widget.TextInputLayout>
 
         <RelativeLayout
