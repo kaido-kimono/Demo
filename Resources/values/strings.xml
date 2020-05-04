@@ -2,4 +2,10 @@
     <string name="app_name">Demo</string>
     <string name="action_settings">Settings</string>
     <string name="inscription">Inscrivez-vous</string>
+  <string name="all_iot">All-Iot</string>
+  <string name="phone">Numéro de telephone</string>
+  <string name="password">Mot de passe</string>
+  <string name="conction_button">Connextion</string>
+  <string name="nom">Nom</string>
+  <string name="connecte">Connectez-vous</string>
 </resources>
